@@ -31,7 +31,7 @@ class portfolio extends Component {
 
                         <div className="col-lg-4 col-md-6 item application">
                             <div className="item-content">
-                                <img src={Ionsadnrois}  style={{height:"396px",objectFit:'cover'}}alt=""/>
+                                <img src={Ionsadnrois} alt=""/>
                                 <div className="item-overlay">
                                     <h6>Application</h6>
                                     <div className="icons">
@@ -47,7 +47,7 @@ class portfolio extends Component {
 
                         <div className="col-lg-4 col-md-6 item design">
                             <div className="item-content">
-                                <img src={Fraudvigilance}  alt=""/>
+                                <img src="images/portfolio/img-2.jpg" alt=""/>
                                 <div className="item-overlay">
                                     <h6>Web Design</h6>
                                     <div className="icons">

@@ -27,7 +27,7 @@ export default class navbar extends Component {
                         {/*<img src={Logo} alt=""/>*/}
                     {/*</div>*/}
 
-                    <h1 className="logo"><img src={Logo} alt="" style={{height:"38px"}}/> </h1>
+                    <h1 className="logo"><img src={Logo} alt="" style={{height:"30px"}}/> </h1>
 
                     <input type="checkbox" id="nav-toggle" className="nav-toggle"/>
                     <nav className="nav_bar_ul">
