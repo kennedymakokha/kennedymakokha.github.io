@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "130a91e39216fd98262f1a485f275c03",
+    "revision": "f4fc372617bad3b5e19d53edade51aef",
     "url": "/index.html"
   },
   {
-    "revision": "32b9e10b05b15c69ce33",
-    "url": "/static/css/main.d4595263.chunk.css"
+    "revision": "fbd47c2a194fc0aa0813",
+    "url": "/static/css/main.71818656.chunk.css"
   },
   {
-    "revision": "5862095b00463a57e1fa",
-    "url": "/static/js/2.8f0b4515.chunk.js"
+    "revision": "57f668c5ae1c7778e311",
+    "url": "/static/js/2.81c0145e.chunk.js"
   },
   {
-    "revision": "32b9e10b05b15c69ce33",
-    "url": "/static/js/main.45b7f5c8.chunk.js"
+    "revision": "fbd47c2a194fc0aa0813",
+    "url": "/static/js/main.47c25126.chunk.js"
   },
   {
     "revision": "edf77e470791c6b64f1c",
     "url": "/static/js/runtime~main.0be9e7ee.js"
+  },
+  {
+    "revision": "4a8d20bde90c36055d0152e969a863f5",
+    "url": "/static/media/fraudicon.4a8d20bd.png"
   },
   {
     "revision": "c74ae4a724151675cc286ca86bd3b4de",
