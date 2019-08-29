@@ -1,5 +1,10 @@
 import React,{Component} from 'react';
 
+import Ionsadnrois from  './images/portfolio/androidios.jpg'
+
+import Fraudvigilance from  './images/portfolio/fraudicon.png'
+
+
 class portfolio extends Component {
     render(){
         return(
@@ -14,9 +19,10 @@ class portfolio extends Component {
                             <div className="portfolio-filter text-center">
                                 <ul>
                                     <li className="sel-item" data-filter="*">All</li>
-                                    <li data-filter=".design">Web Design</li>
-                                    <li data-filter=".application">Applications</li>
-                                    <li data-filter=".development">Development</li>
+                                    <li data-filter=".design">Mobile(android/ios)</li>
+                                    <li data-filter=".application">Web applications</li>
+                                    <li data-filter=".development">packages</li>
+                                    <li data-filter=".development">Desktop applications</li>
                                 </ul>
                             </div>
                         </div>
@@ -25,7 +31,7 @@ class portfolio extends Component {
 
                         <div className="col-lg-4 col-md-6 item application">
                             <div className="item-content">
-                                <img src="images/portfolio/img-1.jpg" alt=""/>
+                                <img src={Ionsadnrois}  style={{height:"396px",objectFit:'cover'}}alt=""/>
                                 <div className="item-overlay">
                                     <h6>Application</h6>
                                     <div className="icons">
@@ -41,7 +47,7 @@ class portfolio extends Component {
 
                         <div className="col-lg-4 col-md-6 item design">
                             <div className="item-content">
-                                <img src="images/portfolio/img-2.jpg" alt=""/>
+                                <img src={Fraudvigilance}  alt=""/>
                                 <div className="item-overlay">
                                     <h6>Web Design</h6>
                                     <div className="icons">

@@ -78,17 +78,17 @@ class services extends Component {
                                 <p>{(truncate("MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with schema. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License.",100))}</p>
                             </div>
                         </div>
-                        <div className="col-md-3">
+                        {/*<div className="col-md-3">*/}
 
-                            <div className="service-item">
-                            <span className="icon" style={{backgroundColor:"#f2f2f2"}}>
-                                <img src={NodeImage} className="ImageIcon"/>
-                            </span>
-                                <h4>Node </h4>
-                                <p>{(truncate("I have a Bachelor’s degree in Computer Science and have spent the past three years at Intelligent Technologies my main responsibilities revolved around building cutting-edge mobile applications and games, testing and debugging applications.",100))}
-                                </p>
-                            </div>
-                        </div>
+                            {/*<div className="service-item">*/}
+                            {/*<span className="icon" style={{backgroundColor:"#f2f2f2"}}>*/}
+                                {/*<img src={NodeImage} className="ImageIcon"/>*/}
+                            {/*</span>*/}
+                                {/*<h4>Node </h4>*/}
+                                {/*<p>{(truncate("I have a Bachelor’s degree in Computer Science and have spent the past three years at Intelligent Technologies my main responsibilities revolved around building cutting-edge mobile applications and games, testing and debugging applications.",100))}*/}
+                                {/*</p>*/}
+                            {/*</div>*/}
+                        {/*</div>*/}
 
                     </div>
                 </div>

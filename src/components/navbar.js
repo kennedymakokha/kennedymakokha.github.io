@@ -1,10 +1,9 @@
 import React, {Component} from "react";
 
-// import './custom.css'
+import Logo from './images/kenslogo.png'
 
 import './style.css'
 
-// import LandingFace from './landingFace';
 
 
 export default class navbar extends Component {
@@ -24,7 +23,12 @@ export default class navbar extends Component {
         return (
             <div id="body" className="body" >
                 <header>
-                    <h1 className="logo">Kennedy </h1>
+                    {/*<div className="logo">*/}
+                        {/*<img src={Logo} alt=""/>*/}
+                    {/*</div>*/}
+
+                    <h1 className="logo"><img src={Logo} alt="" style={{height:"38px"}}/> </h1>
+
                     <input type="checkbox" id="nav-toggle" className="nav-toggle"/>
                     <nav className="nav_bar_ul">
                         <ul>
