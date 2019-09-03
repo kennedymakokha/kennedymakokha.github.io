@@ -6,6 +6,15 @@ import './style.css';
 
 import Kennedy from './images/kennedy.jpg'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import {  faChevronDown } from '@fortawesome/free-solid-svg-icons'
+
+import { faFacebook,faTwitter,faDribbble,faGooglePlus,faPinterest } from '@fortawesome/free-brands-svg-icons'
+
+// import { faCoffee, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+
+
 class about extends Component {
     render(){
         return(
@@ -34,11 +43,15 @@ class about extends Component {
                                     my techniques are my priority.</p>
 
                                 <div className="social-icons">
-                                    <a href="#"><i className="fa fa-facebook"></i></a>
-                                    <a href="#"><i className="fa fa-twitter"></i></a>
-                                    <a href="#"><i className="fa fa-dribbble"></i></a>
-                                    <a href="#"><i className="fa fa-google-plus"></i></a>
-                                    <a href="#"><i className="fa fa-pinterest"></i></a>
+                                    <a href="" className="socioIcons" ><FontAwesomeIcon icon={faFacebook}   size="xs" /></a>
+                                    <a href="" className="socioIcons" ><FontAwesomeIcon icon={faTwitter}  size="xs" /></a>
+                                    <a href="" className="socioIcons" ><FontAwesomeIcon icon={faDribbble}  size="xs" /></a>
+                                    <a href="" className="socioIcons" ><FontAwesomeIcon icon={faGooglePlus}  size="xs" /></a>
+                                    <a href="" className="socioIcons" ><FontAwesomeIcon icon={faPinterest}  size="xs" /></a>
+                                    {/*<a href="#"><i className="fa fa-twitter"></i></a>*/}
+                                    {/*<a href="#"><i className="fa fa-dribbble"></i></a>*/}
+                                    {/*<a href="#"><i className="fa fa-google-plus"></i></a>*/}
+                                    {/*<a href="#"><i className="fa fa-pinterest"></i></a>*/}
                                 </div>
                                 <span className="about-button">
                                 <a className="main-btn" href={Cv}>Download CV</a>

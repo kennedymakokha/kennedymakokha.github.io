@@ -5,7 +5,6 @@ import Logo from './images/kenslogo.png'
 import './style.css'
 
 
-
 export default class navbar extends Component {
 
     smoothScroll = (e) => {

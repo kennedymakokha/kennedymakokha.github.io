@@ -378,4 +378,9 @@ nav a:hover {
         width: 100%;
         padding-top: 1em;
     }
+
+    .socioIcons {
+        padding-left: 3px;
+        background-color: yellow;
+    }
 }

@@ -14,6 +14,11 @@ import Footer from "./footer";
 
 import "./custom.css";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faCoffee, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+
+
 class landing extends Component {
 
     // navbarToggler = () => {
@@ -115,7 +120,9 @@ class landing extends Component {
                             </p>
                         </div>
                         <div className="arrow bounce">
-                            <a className="fa fa-chevron-down fa-2x" href="#about" onClick={this.smoothScroll} data-scroll-nav="1"></a>
+
+                            <a href="#about" onClick={this.smoothScroll} data-scroll-nav="1"><FontAwesomeIcon icon={faChevronDown} size="5x" /></a>
+
                         </div>
                     </div>
 

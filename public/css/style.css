@@ -43,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #3f51b5; }
+  color: #222; }
 
 img {
   width: 100%;
@@ -54,7 +54,7 @@ a:hover,
 a:focus {
   color: inherit; }
 
-.main {
+body {
   font-family: "Raleway", san-serif;
   position: relative;
   font-size: 16px;
@@ -489,7 +489,7 @@ blockquote {
 
 /*============ 3. Navbar ============*/
 nav.navbar {
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   z-index: 999;
@@ -797,8 +797,8 @@ section.services .service-item {
     color: #222;
     display: inline-block;
     margin-bottom: 20px;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     line-height: 78px;
     font-size: 30px;
     border: 1px solid #e3e3e3;
@@ -816,13 +816,6 @@ section.services .service-item {
     -webkit-box-shadow: 0 5px 30px #e3e3e3;
     box-shadow: 0 5px 30px #e3e3e3;
     border-color: #f2f2f2; }
-.ImageIcon{
-  height:100px;
-  width:100px;
-
-
-}
-
 
 /*============ 7. Stats Section ============*/
 .stats {
@@ -1261,14 +1254,3 @@ section.banner-blog {
     height: 80px; }
   section.banner-blog .banner-caption h1 {
     font-size: 32px; } }
-
-
-
-/*custome made csss*/
-
-
-/*#home{*/
-  /*background-color: yellow;*/
-
-  /*background-image: url('./../images/bridge.jpg') !important;*/
-/*}*/

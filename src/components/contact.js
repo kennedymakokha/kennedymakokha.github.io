@@ -16,7 +16,7 @@ class contact extends Component {
                     <div className="row">
                         <div className="col-lg-10 offset-lg-1">
 
-                            <form id='contact-form' method='POST'><input type='hidden' name='form-name'
+                            <form id='contact-form' ><input type='hidden' name='form-name'
                                                                          value='contactForm'/>
                                 <div className="row">
                                     <div className="col-md-6 form-group">
