@@ -9,9 +9,11 @@
     "@fortawesome/free-regular-svg-icons": "^5.10.2",
     "@fortawesome/free-solid-svg-icons": "^5.10.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "axios": "^0.19.0",
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-loader-spinner": "^3.1.2",
     "react-scripts": "3.1.1",
     "truncate-txt": "^1.2.0"
   },
@@ -23,6 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://104.248.247.251:7000",
   "eslintConfig": {
     "extends": "react-app"
   },
