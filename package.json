@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://104.248.247.251:7000",
+  "proxy": "https://portfolio.arkmed.co.ke",
   "eslintConfig": {
     "extends": "react-app"
   },
