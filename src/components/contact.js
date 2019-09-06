@@ -40,7 +40,7 @@ class contact extends Component {
         }
         console.log(emailBody)
 
-        await axios.post(`http://104.248.247.251:7000/contact/send`, emailBody)
+        await axios.post('http://104.248.247.251:7000/contact/send', emailBody)
             .then(res => {
                 this.setState({
                     name: '',
