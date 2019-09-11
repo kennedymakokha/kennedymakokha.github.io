@@ -4,7 +4,7 @@ import Cv from "./downloads/mycv.docx";
 
 import './style.css';
 
-import Kennedy from './images/kennedy.jpg'
+import Kennedy from './images/kennedy.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
