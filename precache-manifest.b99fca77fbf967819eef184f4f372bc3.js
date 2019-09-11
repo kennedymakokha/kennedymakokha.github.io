@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b02ad7a5a95495a4e53ec95ac7e61056",
+    "revision": "81ee5a74daaa9147b130fb2acee3ce25",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.c37b5d79.chunk.css"
   },
   {
-    "revision": "c0b75f1559e3fa023c8d",
+    "revision": "a009d0bc9568a7796c6c",
     "url": "/static/css/main.46687c41.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.31f35016.chunk.js"
   },
   {
-    "revision": "c0b75f1559e3fa023c8d",
-    "url": "/static/js/main.03a83578.chunk.js"
+    "revision": "a009d0bc9568a7796c6c",
+    "url": "/static/js/main.ab684c35.chunk.js"
   },
   {
     "revision": "edf77e470791c6b64f1c",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fraudicon.4a8d20bd.png"
   },
   {
-    "revision": "c74ae4a724151675cc286ca86bd3b4de",
-    "url": "/static/media/kennedy.c74ae4a7.jpg"
+    "revision": "4d3d23d64243b8e88e56e8e0b065c1d8",
+    "url": "/static/media/kennedy.4d3d23d6.png"
   },
   {
     "revision": "47924c5b150ca3e8dc532fa3d97811d5",
