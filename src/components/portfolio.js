@@ -22,7 +22,7 @@ var mobile = [
     {
         title: 'Mtalii Care',
 
-        url: 'arkmed.co.ke',
+        url: '#',
 
         image: `${Mtalii}`,
 
@@ -33,7 +33,7 @@ var mobile = [
     {
         title: 'fraud vigillance Mobile App',
 
-        url: 'arkmed.co.ke',
+        url: 'https://play.google.com/store/apps/details?id=com.fraudVigilanceApp.ke&hl=en',
 
         image: `${FvNew}`,
 
@@ -43,7 +43,7 @@ var mobile = [
     {
         title: 'RedAnt Agent Mobile App V1 ',
 
-        url: 'arkmed.co.ke',
+        url: 'https://play.google.com/store/apps/details?id=com.ionicframework.redantcustomer154978&hl=en',
 
         image: `${RedAntA}`,
 
@@ -54,7 +54,7 @@ var mobile = [
     {
         title: 'fraud vigillance Mobile App V1 ',
 
-        url: 'arkmed.co.ke',
+        url: 'https://play.google.com/store/apps/details?id=com.fraudVigilanceApp.ke&hl=en',
 
         image: `${Fvold}`,
 
@@ -65,7 +65,7 @@ var mobile = [
     {
         title: 'Redant DirectoryMobile App V1 ',
 
-        url: 'arkmed.co.ke',
+        url: 'https://play.google.com/store/apps/details?id=com.ionicframework.redantcustomer154978&hl=en',
 
         image: `${RedAntD}`,
 
@@ -105,7 +105,7 @@ var web = [
     {
         title: 'fraud vigillance Medical Services',
 
-        url: 'arkmed.co.ke',
+        url: 'https://fraudvigilance.com/fv_ke/',
 
         image: `${Fraudvigilance}`,
 
@@ -116,7 +116,7 @@ var web = [
     {
         title: 'Cebic ',
 
-        url: 'arkmed.co.ke',
+        url: 'https://cebic.intelligent.co.ke/',
 
         image: `${Cebic}`,
 
@@ -238,7 +238,7 @@ class portfolio extends Component {
                                     <h6>{web.title}</h6>
                                     <div className="icons">
                                         <span className="icon link">
-                                            <a href="images/portfolio/img-1.jpg">
+                                            <a href={web.url} target='__blank'>
                                                 <i className="fa fa-search"></i>
                                             </a>
                                         </span>
@@ -257,7 +257,7 @@ class portfolio extends Component {
                                     <h6>{web.title}</h6>
                                     <div className="icons">
                                         <span className="icon link">
-                                            <a href="images/portfolio/img-1.jpg">
+                                            <a href={web.url} target='__blank'>
                                                 <i className="fa fa-search"></i>
                                             </a>
                                         </span>
@@ -277,7 +277,7 @@ class portfolio extends Component {
                                     <h6>{mob.title}</h6>
                                     <div className="icons">
                                         <span className="icon link">
-                                            <a href="images/portfolio/img-1.jpg">
+                                            <a href={mob.url} target='__blank'>
                                                 <i className="fa fa-search"></i>
                                             </a>
                                         </span>
@@ -296,7 +296,7 @@ class portfolio extends Component {
                                     <h6>{mob.title}</h6>
                                     <div className="icons">
                                         <span className="icon link">
-                                            <a href="images/portfolio/img-1.jpg">
+                                            <a href={mob.url} target='__blank'>
                                                 <i className="fa fa-search"></i>
                                             </a>
                                         </span>
