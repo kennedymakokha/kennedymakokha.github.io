@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.a6cfc740.css",
-    "main.js": "/static/js/main.f4374c41.js",
+    "main.js": "/static/js/main.97833bc9.js",
     "static/js/787.86e70ff7.chunk.js": "/static/js/787.86e70ff7.chunk.js",
-    "static/media/logo.JPG": "/static/media/logo.e7333d1d4ad3c35aa260.JPG",
+    "static/media/logo.png": "/static/media/logo.0c0bba5e775c56996cdc.png",
     "static/media/Invent.png": "/static/media/Invent.39e068d56dbf020d8406.png",
     "static/media/viglant.png": "/static/media/viglant.9211e655f174a66f5927.png",
     "static/media/learnnia.png": "/static/media/learnnia.6e844c962f662e5b117e.png",
     "static/media/invent2.png": "/static/media/invent2.89b6ab2eec30cbfbf4e2.png",
     "index.html": "/index.html",
     "main.a6cfc740.css.map": "/static/css/main.a6cfc740.css.map",
-    "main.f4374c41.js.map": "/static/js/main.f4374c41.js.map",
+    "main.97833bc9.js.map": "/static/js/main.97833bc9.js.map",
     "787.86e70ff7.chunk.js.map": "/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6cfc740.css",
-    "static/js/main.f4374c41.js"
+    "static/js/main.97833bc9.js"
   ]
 }
