@@ -1,4 +1,4 @@
-import logo from './../img/logo.JPG';
+import logo from './../img/logo.png';
 import Layout from './Layout'
 
 function Home() {
