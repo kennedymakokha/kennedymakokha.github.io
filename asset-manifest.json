@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6cfc740.css",
-    "main.js": "/static/js/main.97833bc9.js",
+    "main.css": "/static/css/main.f47e5a57.css",
+    "main.js": "/static/js/main.07bbc81f.js",
     "static/js/787.86e70ff7.chunk.js": "/static/js/787.86e70ff7.chunk.js",
     "static/media/logo.png": "/static/media/logo.0c0bba5e775c56996cdc.png",
-    "static/media/Invent.png": "/static/media/Invent.39e068d56dbf020d8406.png",
-    "static/media/viglant.png": "/static/media/viglant.9211e655f174a66f5927.png",
-    "static/media/learnnia.png": "/static/media/learnnia.6e844c962f662e5b117e.png",
-    "static/media/invent2.png": "/static/media/invent2.89b6ab2eec30cbfbf4e2.png",
+    "static/media/Invent.png": "/static/media/Invent.24c67dcb8a58b1547d21.png",
+    "static/media/learnnia.png": "/static/media/learnnia.2a3dc351ea02389bcdcc.png",
+    "static/media/viglant.png": "/static/media/viglant.bfcaa5b0728e8b524a80.png",
+    "static/media/cebic.jpg": "/static/media/cebic.8e1f4eabb2f83aa24291.jpg",
+    "static/media/kakitu.jpg": "/static/media/kakitu.0c91fb99b7ef0b4101d7.jpg",
+    "static/media/octagon.jpg": "/static/media/octagon.382a17693f568f8c4c1f.jpg",
+    "static/media/api.jpg": "/static/media/api.bb8e8f3cda40e19c0888.jpg",
+    "static/media/vig1.jpg": "/static/media/vig1.aa3cef0154fe8f86cd61.jpg",
+    "static/media/winlog.jpg": "/static/media/winlog.26027ae90245766d2132.jpg",
     "index.html": "/index.html",
-    "main.a6cfc740.css.map": "/static/css/main.a6cfc740.css.map",
-    "main.97833bc9.js.map": "/static/js/main.97833bc9.js.map",
+    "main.f47e5a57.css.map": "/static/css/main.f47e5a57.css.map",
+    "main.07bbc81f.js.map": "/static/js/main.07bbc81f.js.map",
     "787.86e70ff7.chunk.js.map": "/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6cfc740.css",
-    "static/js/main.97833bc9.js"
+    "static/css/main.f47e5a57.css",
+    "static/js/main.07bbc81f.js"
   ]
 }
