@@ -2,6 +2,7 @@
 import Layout from './Layout'
 import React, { useState, useRef } from 'react'
 import BreadCramp from './breadcramp'
+import { bioData, bioData1 } from '../data'
 
 function MeTab(props) {
     return (
@@ -18,7 +19,7 @@ function MeEducation(props) {
     return (
         <div className='md:w-1/2 w-full mb-20'>
             <div className='w-1/10 border-l relative z-0 border-white'>
-                <div class="absolute inset-0  -left-5 z-10 -top-1 h-10 w-10 bg-yellow-400 flex items-center justify-center rounded-full">
+                <div className="absolute inset-0  -left-5 z-10 -top-1 h-10 w-10 bg-yellow-400 flex items-center justify-center rounded-full">
                     {props.icon}
                 </div>
                 <div className='px-10 pb-8 max-w-10'>
@@ -50,54 +51,11 @@ function Meskills(props) {
 
 function BioData(props) {
     return (
-        <div className='flex'><h5 className=' md:w-24 w-14 text-xs font-serif md:text-lg '>{props.name}: </h5><h6 className='  text-xs mx-1 md:text-lg md:w-24 w-16 ' >{props.value}</h6></div>
+        <div className='flex'><h5 className=' md:w-24 w-14 text-xs font-serif md:text-lg '>{props.name}: </h5><h6 className='  text-xs mx-1 md:text-lg md:w-36 w-16 ' >{props.value}</h6></div>
     )
 }
 
 
-const bioData = [
-    {
-        key: "First Name",
-        value: "Kennedy"
-    },
-
-    {
-        key: "Age",
-        value: "28"
-    },
-    {
-        key: "Freelance",
-        value: "Available"
-    },
-    {
-        key: "Phone",
-        value: "+254720141534"
-    }
-
-]
-const bioData1 = [
-    {
-        key: "Last Name",
-        value: "Kennedy"
-    },
-    {
-        key: "Nationality",
-        value: "Kenyan"
-    },
-    {
-        key: "Address",
-        value: "30  Nairobi-Ke"
-    },
-    {
-        key: "Email",
-        value: "katchibo2@gmail.com"
-    },
-    {
-        key: "Languages",
-        value: "English,Swahili,Luhya"
-    }
-
-]
 
 
 
@@ -115,10 +73,10 @@ function About() {
         <div className='w-screen'>
             <Layout>
                 <div className='md:min-w-full min-w-full md:pr-24 pr-10  md:mt-0 mt-14  mb-96' ref={HomeRef}>
-                <BreadCramp name="Resume" b1="About" b4="-" b2="me" />
-                    
+                    <BreadCramp name="Resume" b1="About" b4="-" b2="me" />
+
                     <h3 className='text-yellow-400  md:text-3xl text-xl not-italic font-bold md:flex hidden'>Personal Info</h3>
-                    <div class="flex flex-wrap w-full md:pt-12  pt-2 text-white">
+                    <div className="flex flex-wrap w-full md:pt-12  pt-2 text-white">
                         <div className='w-full md:w-2/4 flex flex-col'>
                             <div className='flex '>
                                 <div>
@@ -133,13 +91,20 @@ function About() {
                                 </div>
 
                             </div>
+                            <div className='flex justify-center items-center'>
+                                <div className='border-t  mt-4 border border-yellow-400 rounded-l-full group group-hover:justify-between justify-center  p-2  rounded-r-full group-hover:w-40 flex  '>
+                                    <svg className="w-6 h-6 group-hover:flex hidden " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 9.5A3.5 3.5 0 005.5 13H9v2.586l-1.293-1.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 15.586V13h2.5a4.5 4.5 0 10-.616-8.958 4.002 4.002 0 10-7.753 1.977A3.5 3.5 0 002 9.5zm9 3.5H9V8a1 1 0 012 0v5z" clip-rule="evenodd"></path></svg>
+                                    <div className='group-hover:hidden flex'>Resume</div>
 
-                            <button className="capitalize w-full hover:bg-yellow-400  my-2 mt-4  text-white focus:outline-none md:px-10 px-2 py-3  text-center border-t border border-yellow-400 rounded-l-full rounded-r-full flex flex-row justify-center items-center">
-                                More About Me
-                            </button>
+                                </div>
+
+                                <button className="capitalize w-40   text-white focus:outline-none md:px-10 px-2 py-3  text-center flex flex-row ">
+                                </button>
+                            </div>
+
                         </div>
                         <div className='w-full md:w-2/4 md:mt-0 mt-4'>
-                            <div class="grid grid-rows-2 grid-flow-col md:gap-x-2  gap-4  md:h-full h-full md:pl-10 pl-0">
+                            <div className="grid grid-rows-2 grid-flow-col md:gap-x-2  gap-4  md:h-full h-full md:pl-10 pl-0">
 
                                 <MeTab title="Years of experience" num="5" />
 
@@ -158,7 +123,7 @@ function About() {
                     </div>
                     <div className='flex justify-center items-center w-full  pt-10'>
                         {/* <button onClick={handleBackClick}>Back to the top</button> */}
-                        <svg onClick={() => handleBackClick(titleRef)} class="w-10 h-10 animate-bounce  text-white " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"></path></svg>
+                        <svg onClick={() => handleBackClick(titleRef)} className="w-10 h-10 animate-bounce  text-white " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"></path></svg>
                     </div>
                 </div>
 
@@ -169,9 +134,9 @@ function About() {
                     <h3 className='text-white text-3xl'>My skills </h3>
                 </div>
 
-                <div class="flex flex-wrap  w-full pt-5 text-white  py-0">
+                <div className="flex flex-wrap  w-full pt-5 text-white  py-0">
 
-                    <Meskills title="Python" num="29" />
+                    <Meskills title="Typescript" num="69" />
 
 
                     <Meskills title="Laravel" num="57" />
@@ -190,23 +155,23 @@ function About() {
 
                 </div>
                 <div className='flex justify-center items-center pt-10'>
-                    <svg onClick={() => handleBackClick(ExperRef)} class="w-10 h-10 animate-bounce   text-white " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"></path></svg>
+                    <svg onClick={() => handleBackClick(ExperRef)} className="w-10 h-10 animate-bounce   text-white " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"></path></svg>
                 </div>
 
             </div>
 
-            <div ref={ExperRef} className='w-full  bg-gradient-to-b from-gray-800 to-black px-10 py-0'>
+            <div ref={ExperRef} className='w-full   bg-gradient-to-b from-gray-800 to-black px-10 py-0'>
                 <div className='items-centre justify-center flex underline underline-offset-8 text-yellow-400 min-w-full py-10'>
                     <h3 className='text-white text-3xl'>My Experience </h3>
                 </div>
 
-                <div class="flex flex-wrap  w-full pt-5 text-white  py-0">
+                <div className="flex flex-wrap  w-full pt-5 text-white  py-0">
 
                     <MeEducation duration="2017-Present"
                         campany="Intelligent"
                         role="Senior Software Developer"
                         description="Responsible under the supervision of the project manager to design and Develop desktop web and mobile applications "
-                        icon={<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>}
+                        icon={<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>}
                     />
 
                     <MeEducation
@@ -214,15 +179,15 @@ function About() {
                         description="Graduated with a Barchelors Degree in Computer Science. Having achieved a Second Class Upper Division"
                         campany="University Of Eldoret"
                         role="BSc Computer Science"
-                        icon={<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 14l9-5-9-5-9 5 9 5z"></path><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"></path></svg>}
+                        icon={<svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 14l9-5-9-5-9 5 9 5z"></path><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"></path></svg>}
                     />
 
 
 
                 </div>
                 <div className='flex justify-center items-center pt-10'>
-                    <svg onClick={() => handleBackClick(HomeRef)} class="w-10 h-10 animate-bounce text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"></path></svg>
-                    {/* <svg class="w-10 h-10 animate-bounce   " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"></path></svg> */}
+                    <svg onClick={() => handleBackClick(HomeRef)} className="w-10 h-10 animate-bounce text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z"></path></svg>
+                    {/* <svg className="w-10 h-10 animate-bounce   " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"></path></svg> */}
                 </div>
 
             </div>

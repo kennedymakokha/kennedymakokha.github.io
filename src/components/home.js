@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from './../img/logo.png';
 import Layout from './Layout'
 
@@ -19,10 +20,10 @@ function Home() {
                             <p className=' md:text-5xl text-2xl font-bold text-yellow-400 '>I'M KENNEDY MAKOKHA</p>
                             <p className='text-italic md:py-5 py-2'><i>Creative Designer & Developer located in Nairobi-Kenya </i></p>
 
-                            <p className='text-justify md:mx-10 mx-2'>I'm a Kenyan based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me</p>
+                            <p className='text-justify md:mx-10 mx-2 text-lg'>I'm a Kenyan based full stack developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me</p>
                             <div className='justify-center items-center self-center flex pt-10'>
                                 <button className="capitalize  hover:bg-yellow-400 text-white focus:outline-none px-10 py-3 my-2 border border-yellow-400 order-l rounded-l-full border-r rounded-r-full flex flex-row">
-                                    More About Me
+                                   <Link to="/about"> More About Me</Link>
                                 </button>
                             </div>
                         </div>

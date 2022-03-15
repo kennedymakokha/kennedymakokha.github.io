@@ -4,6 +4,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'skills': "url('assets/skills.jpg')",
+        // 'bg': "url('assets/bg.jpg')",
+      },
       fontFamily: {
           sans: ["Poppins"],
       },
