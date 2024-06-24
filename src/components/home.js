@@ -5,7 +5,7 @@ import Layout from './Layout'
 function Home() {
     return (
         <Layout>
-            <div className='min-w-full flex  flex-wrap md:flex-nowrap md:pr-24 pr-10 '>
+            {/* <div className='min-w-full flex  flex-wrap md:flex-nowrap md:pr-24 pr-10 '>
                 <div className='md:w-2/5 h-96 md:h-auto   w-full justify-center items-center  hidden md:flex '>
                     <img src={logo} alt="" className='rounded-md h-3/4 w-full object-cover relative z-0 ' />
                 </div>
@@ -29,7 +29,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </Layout>
     );
 }
